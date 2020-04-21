@@ -233,7 +233,7 @@ namespace ADO.NET.Lesson9_LINQ
             var query = from a in areas
                         join t in timers
                         on a.AreaId equals t.AreaId
-                        select new { a.FullName, t.DateStart, t.DateFinish };
+                        select new { a.FullName, t.DateStart, t.DateFinish }; 
 
             var query1 = areas.Join(timers, 
                 t=> t.AreaId, a=> a.AreaId,
