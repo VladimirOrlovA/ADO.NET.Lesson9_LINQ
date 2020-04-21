@@ -1,0 +1,4 @@
+
+Link to GitHub
+
+https://github.com/VladimirOrlovA/ADO.NET.Lesson9_LINQ
